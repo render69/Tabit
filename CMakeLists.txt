@@ -4,13 +4,13 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 REQUIRED COMPONENTS Widgets WebEngineWidgets)
 set(SOURCES
-    main.cpp
-    browserwindow.cpp
-    customwebpage.cpp
+    src/main.cpp
+    src/browserwindow.cpp
+    src/customwebpage.cpp
 )
 set(HEADERS
-    browserwindow.h
-    customwebpage.h
+    include/browserwindow.h
+    include/customwebpage.h
 )
 qt6_wrap_cpp(MOC_SOURCES ${HEADERS})
 add_executable(${PROJECT_NAME} ${SOURCES} ${MOC_SOURCES})

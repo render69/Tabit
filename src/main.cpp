@@ -1,5 +1,5 @@
 #include <QApplication>
-#include "browserwindow.h"
+#include "../include/browserwindow.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);

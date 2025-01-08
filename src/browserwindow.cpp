@@ -1,5 +1,5 @@
-#include "browserwindow.h"
-#include "customwebpage.h"
+#include "../include/browserwindow.h"
+#include "../include/customwebpage.h"
 
 #include <QVBoxLayout>
 #include <QAction>

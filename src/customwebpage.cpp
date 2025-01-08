@@ -1,4 +1,4 @@
-#include "customwebpage.h"
+#include "../include/customwebpage.h"
 
 #include <QDesktopServices>
 #include <QDebug>
